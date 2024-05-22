@@ -16,7 +16,6 @@ body .section1 .nav {
   left: 50%;
   top: 50px;
   transform: translateX(-50%);
-  /* Ensure the anchor tag has no default styling that might interfere */
 }
 body .section1 .nav .nav-btn {
   border: 1px solid white;
@@ -26,8 +25,8 @@ body .section1 .nav .nav-btn {
   border-radius: 8px;
   transition: 200ms;
   pointer-events: auto;
-  text-decoration: none; /* Remove underline from link */
-  color: black; /* Set default text color */
+  text-decoration: none;
+  color: black;
 }
 body .section1 .nav .nav-btn:hover {
   background: none;
@@ -43,10 +42,9 @@ body .section2 {
   width: -moz-fit-content;
   width: fit-content;
   margin: 0 100px;
-  height: 471.4px; /* Specific height */
-  padding: 120px 0; /* Padding */
+  height: 471.4px;
+  padding: 120px 0;
   font-family: sora, sans-serif;
-  /* Styles for the left child */
   /* Styles for the right child */
 }
 body .section2 .leftchild {
@@ -67,14 +65,13 @@ body .section2 .leftchild span {
 }
 body .section2 .leftchild p {
   font-size: 18px;
-  color: white; /* Matching color for consistency */
+  color: #EEE5FF;
   margin: 5px 0 0 0;
   text-align: left;
 }
 body .section2 .rightchild {
   margin-top: -31px;
   margin-left: 98px;
-  padding: 0px 367px 0px 175px;
 }
 body .section2 .rightchild h1 {
   color: #EEE5FF;
@@ -82,7 +79,7 @@ body .section2 .rightchild h1 {
   font-family: "Sora", Arial, Helvetica, sans-serif;
   font-size: 65px;
   font-weight: 500;
-  line-height: 85px;
+  line-height: 1.1;
   text-transform: initial;
   overflow-wrap: break-word;
   margin-block-start: 0.83em;
@@ -122,7 +119,7 @@ body .section3 .section3-rating {
   justify-content: space-between;
   display: flex;
   margin: auto;
-  width: 80%;
+  width: 93%;
   padding: 47px 0;
 }
 body .section3 .section3-rating .section3-rating1 {
@@ -216,10 +213,17 @@ body .btn {
   text-align: left;
   align-items: start;
   display: flex;
+  cursor: pointer;
+  color: #EEE5FF;
+}
+body .btn .arrow {
+  padding: 0px 0px 0px 10px;
 }
 body .section4-rightchild {
   padding: 10px;
   width: 40%;
+  display: flex;
+  justify-content: right;
 }
 body .section5 {
   justify-content: center;
@@ -244,7 +248,8 @@ body .section5 .sec5-component {
   justify-content: center;
   align-items: center;
   margin-top: 50px;
-  width: 100%;
+  width: 98%;
+  margin: 50px auto 0;
 }
 body .section5 .apply-section {
   background-color: transparent;
@@ -257,16 +262,22 @@ body .section5 .apply-section {
   margin: 10px 10px 120px;
   margin-top: 50px;
   margin-bottom: 0px;
+  border-color: rgba(255, 255, 255, 0.062745098);
+  border: 2px solid;
 }
 body .section5 .apply-page {
   margin: 80px 10px 10px;
   padding: 30px;
+  position: relative;
+  top: 90px;
   background-color: transparent;
   background-image: linear-gradient(180deg, #0D061F 0%, #251E35 100%);
   border-radius: 20px 20px 20px 20px;
   width: 691.3px;
   height: 630px;
   color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.062745098);
+  border: 2px solid;
 }
 body .section5 .section-content {
   text-align: left;
@@ -304,12 +315,14 @@ body .section5 .page-img-container img {
 }
 body .section6 .sec6-container {
   padding: 50px 30px 50px 30px;
-  margin: auto;
+  margin: 150px auto 0;
   font: 16px;
-  width: 80%;
+  width: 92%;
   background-color: transparent;
   background-image: linear-gradient(180deg, #0D061F 0%, #251E35 100%);
   border-radius: 20px 20px 20px 20px;
+  border-color: rgba(255, 255, 255, 0.062745098);
+  border: 2px solid;
 }
 body .section6 .sec6-container h2 {
   font-size: 25px;
@@ -325,6 +338,10 @@ body .section7 {
   color: #6f6f6f;
   overflow: hidden;
   padding: 100px 0px 100px 0px;
+  text-align: left;
+}
+body .section7 .sec7-upper-content h2 {
+  text-align: center;
 }
 body .section7 .sec7-upper-content p {
   color: rgba(238, 229, 255, 0.7411764706);
@@ -333,11 +350,11 @@ body .section7 .sec7-upper-content p {
   font-weight: 300;
   line-height: 30px;
   margin: 0px 260px 0px 260px;
+  text-align: center;
 }
 body .section7 .sec7-lower-content {
-  width: 88%;
-  height: 446.2px;
-  padding: 50px 0px 0px;
+  width: 97%;
+  padding: 50px 30px 0px 65px;
   display: flex;
   margin-right: auto;
   margin-left: auto;
@@ -349,12 +366,12 @@ body .section7 .sec7-lower-content .card1, body .section7 .sec7-lower-content .c
   width: 399.9px;
   border-radius: 20px 20px 20px 20px;
   border-color: rgba(255, 255, 255, 0.062745098);
+  border: 2px solid;
   margin: 10px 10px 10px 10px;
   align-content: flex-start;
   padding: 13px 18px;
 }
 body .section7 .sec7-lower-content .card1 img, body .section7 .sec7-lower-content .card2 img, body .section7 .sec7-lower-content .card3 img {
-  margin: -20px 0px 20px -40px;
   height: auto;
   max-width: 100%;
   border: none;

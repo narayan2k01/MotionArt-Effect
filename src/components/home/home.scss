@@ -43,8 +43,8 @@ body{
             border-radius: 8px;
             transition: 200ms;
             pointer-events: auto;
-            text-decoration: none; /* Remove underline from link */
-            color: black; /* Set default text color */
+            text-decoration: none; 
+            color: black; 
           }
           
           .nav-btn:hover {
@@ -54,7 +54,7 @@ body{
             pointer-events: auto;
           }
           
-          /* Ensure the anchor tag has no default styling that might interfere */
+          
           .nav-btn-wrapper {
             text-decoration: none;
           }
@@ -70,12 +70,12 @@ body{
     display: flex;
 width: fit-content;
 margin: 0 100px;
-    height: 471.4px; /* Specific height */
-    padding: 120px 0; /* Padding */
+    height: 471.4px;
+    padding: 120px 0;
     font-family: sora, sans-serif;
 
 
-/* Styles for the left child */
+
 .leftchild {
     margin-right: 40px;
     padding: 50px 0;
@@ -97,8 +97,8 @@ margin: 0 100px;
 
 .leftchild p {
     font-size: 18px;
-    color: white; /* Matching color for consistency */
-    margin: 5px 0 0 0;
+    color: #EEE5FF ;
+    margin : 5px 0 0 0;
     text-align: left;
     
 }
@@ -107,7 +107,7 @@ margin: 0 100px;
 .rightchild{
     margin-top: -31px;
     margin-left: 98px;
-    padding: 0px 367px 0px 175px;
+
 }
 
 .rightchild h1 {
@@ -116,7 +116,7 @@ margin: 0 100px;
     font-family: "Sora", Arial, Helvetica, sans-serif;
     font-size: 65px;
     font-weight: 500;
-    line-height: 85px;
+   line-height: 1.1;
     text-transform: initial;
     overflow-wrap: break-word;
     margin-block-start: 0.83em;
@@ -163,7 +163,7 @@ h2{
     justify-content: space-between;
     display: flex;
     margin: auto;
-    width: 80%;
+    width: 93%;
     padding: 47px 0;
 .section3-rating1{
     justify-content:space-between;
@@ -269,12 +269,20 @@ p{
     text-align: left;
     align-items: start;
     display: flex;
+    cursor: pointer;
+    color: #EEE5FF;
+
+    .arrow{
+        padding: 0px 0px 0px 10px ;
+      }
   }
+ 
   
   .section4-rightchild {
     padding: 10px;
     width: 40%;
-   
+   display: flex;
+   justify-content: right;
   }
   
   .section4-rightchild img {
@@ -307,8 +315,8 @@ p{
     justify-content: center;
     align-items: center;
     margin-top: 50px;
-    width: 100%
-    
+    width: 98%;
+margin:50px auto 0;    
 }
 
 .apply-section{
@@ -321,19 +329,24 @@ p{
     color: #ffffff;
     margin: 10px 10px 120px;
     margin-top: 50px;
-    margin-bottom: 0px
+    margin-bottom: 0px;
+    border-color: #FFFFFF10;
+    border: 2px solid;
 }
 
 .apply-page {
     margin: 80px 10px 10px;
     padding: 30px;
+    position: relative;
+    top:90px;
     background-color: transparent;
     background-image: linear-gradient(180deg, #0D061F 0%, #251E35 100%);
     border-radius: 20px 20px 20px 20px;
     width: 691.3px;
     height: 630px;
     color: #ffffff;
-
+    border-color: #FFFFFF10;
+    border: 2px solid;
 }
 
 .section-content {
@@ -379,12 +392,15 @@ img{
 .section6{
     .sec6-container{
         padding: 50px 30px 50px 30px;
-        margin: auto;
+        margin: 150px auto 0;
+       
         font: 16px;
-        width: 80%;
+        width: 92%;
         background-color: transparent;
         background-image: linear-gradient(180deg, #0D061F 0%, #251E35 100%);
         border-radius: 20px 20px 20px 20px;
+        border-color: #FFFFFF10;
+        border: 2px solid;
     h2{
         font-size: 25px;
         font-family: "sona",sans-serif;
@@ -404,10 +420,12 @@ img{
   color: #6f6f6f;
   overflow: hidden;
   padding: 100px 0px 100px 0px;
-  
+  text-align: left;
   .sec7-upper-content{
 
-
+h2{
+    text-align: center;
+}
 
     p{
         color: #EEE5FFBD;
@@ -416,13 +434,14 @@ img{
     font-weight: 300;
     line-height: 30px;
     margin: 0px 260px 0px 260px;
+    text-align: center;
     }
   }
 
   .sec7-lower-content{
- width:88%;
- height: 446.2px;
- padding: 50px 0px 0px;
+ width:97%;
+
+ padding: 50px 30px 0px 65px;
  display: flex;
  margin-right: auto;
  margin-left: auto;
@@ -433,13 +452,13 @@ img{
     background-image: linear-gradient(180deg, #0D061F 0%, #251E35 100%);
     width: 399.9px;
     border-radius: 20px 20px 20px 20px;
-    border-color: rgba(255, 255, 255, 0.062745098);
+         border-color: #FFFFFF10;
+         border: 2px solid;
     margin: 10px 10px 10px 10px;
     align-content: flex-start;
     padding: 13px 18px;
-
         img{
-            margin: -20px 0px 20px -40px;
+            
             height: auto;
     max-width: 100%;
     border: none;

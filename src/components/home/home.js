@@ -18,7 +18,7 @@ function Home (){
             <p>With Motion <br/> Art Effect</p>
         </div>
         <div className="rightchild">
-            <h1>Attract Your Visitors Attention With Colorful</h1>
+            <h1>Attract Your Visitors <br/> Attention With <br/>Colorful</h1>
             <span>Motion Art Effect</span>
             <p>Unleash the power of creativity with Motion Art for Elementor - your ultimate
                 solution for seamlessly integrating captivating animations into your website.
@@ -78,7 +78,7 @@ function Home (){
                     <p> Motion Art for Elementor is a groundbreaking plugin that empowers you to effortlessly infuse your website with visually stunning motion art elements.
 
                     </p></div>
-                    <button className='btn'>Purchase From Envato</button>
+                    <button className='btn'>Purchase From Envato <i class="bi bi-arrow-right arrow"></i></button>
                 </div>
                 <div className="section4-rightchild">
                     <img src='https://qodematrix.com/wp-content/uploads/2023/10/motionarteffect-img5.png'></img>
