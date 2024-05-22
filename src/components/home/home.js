@@ -7,12 +7,15 @@ function Home (){
     <div className='nav'> 
     <img src='https://qodematrix.com/wp-content/uploads/2023/10/MotionArtEffect-logo.png'>
     </img>
-    <button className='nav-btn'>Purchase now</button>
+    <a href="https://codecanyon.net/item/motion-art-for-elementor-wordpress-plugin/48826891" target="_blank" rel="noopener noreferrer" className="nav-btn-wrapper">
+  <button className='nav-btn'>Purchase now</button>
+</a>
+
     </div>
     <div className="section2">
         <div className="leftchild">
-            <span>Transform Your Website</span>
-            <p>With Motion Art Effect</p>
+            <span>Transform <br/> Your Website</span>
+            <p>With Motion <br/> Art Effect</p>
         </div>
         <div className="rightchild">
             <h1>Attract Your Visitors Attention With Colorful</h1>
@@ -75,7 +78,7 @@ function Home (){
                     <p> Motion Art for Elementor is a groundbreaking plugin that empowers you to effortlessly infuse your website with visually stunning motion art elements.
 
                     </p></div>
-                    <button className='btn'>Purchase From the site</button>
+                    <button className='btn'>Purchase From Envato</button>
                 </div>
                 <div className="section4-rightchild">
                     <img src='https://qodematrix.com/wp-content/uploads/2023/10/motionarteffect-img5.png'></img>
@@ -166,8 +169,6 @@ function Home (){
                 <div className="footer-left">
                 <p>© 2023 Copywrite. All rights reserved by QodeMatrix</p>
 
-
-                </div>
                 <div className="footer-right">
                 <ul>
                    <li>
@@ -182,7 +183,10 @@ function Home (){
                    </li>
                 </ul>
                 
-                </div></div> 
+                </div>
+                </div>
+             
+                </div> 
 
 
 
@@ -191,11 +195,13 @@ function Home (){
 
 
             </div>
+
+
+
+
+
+
        </div>
-
-
-
-      
     </>)
 }
 export default Home ;
