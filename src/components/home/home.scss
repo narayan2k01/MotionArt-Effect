@@ -294,60 +294,53 @@ p{
   
 
 .section5{
-    justify-content:center;
-    display: flex;
-    display: inline;
-    padding: 100px 0px 100px 0px;
-    height: 1000px;
+    padding: 100px 0;
     position: relative;
+    width: 100%;
     h2{
-        color: #EEE5FF;
-    margin: 0px 0px 10px;
-    font-family: "Sora", Sans-serif;
-    font-size: 35px;
-    font-weight: 500;
-    line-height: 60px;
-    font-style: inherit;
-    overflow-wrap: break-word;
+        color: #eee5ff;
+        font-family: Sora, Sans-serif;
+        font-size: 35px;
+        font-style: inherit;
+        font-weight: 500;
+        line-height: 1;
+        margin: auto;
+        overflow-wrap: break-word;
+        width: 522px;
     
 
     }
 
 .sec5-component {
     display: flex;
-    gap: 20px;
-    justify-content:center;
- 
-    margin-top: 50px;
-    width: 98%;
-margin:50px auto 0;    
+    gap: 10px;
+    justify-content: center;
+    
+    width: 80%;
+    margin: 50px auto 0;   
 }
 
 .apply-section{
-    margin: 80px 10px 10px;
+    margin: 10px 10px 120px 10px;
     padding: 30px;
     position: relative;
-    top: 90px;
     background-color: transparent;
     background-image: linear-gradient(180deg, #0D061F 0%, #251E35 100%);
     border-radius: 20px 20px 20px 20px;
-    width: 497.3px;
-    height: 481px;
+    width: 50%;
     color: #ffffff;
     border-color: rgba(255, 255, 255, 0.062745098);
     border: 2px solid;
 }
 
 .apply-page {
-    margin: 80px 10px 10px;
+    margin: 10px 10px 120px 10px;
     padding: 30px;
     position: relative;
-    top:90px;
     background-color: transparent;
     background-image: linear-gradient(180deg, #0D061F 0%, #251E35 100%);
     border-radius: 20px 20px 20px 20px;
-    width: 691.3px;
-    height: 630px;
+    width: 50%;
     color: #ffffff;
     border-color: #FFFFFF10;
     border: 2px solid;
@@ -398,10 +391,9 @@ img{
     .sec6-container{
         padding: 50px 30px 50px 30px;
         margin: 150px auto 0;
-       
-       
+       color: white;
         font: 16px;
-        width: 92%;
+        width: 90%;
         background-color: transparent;
         background-image: linear-gradient(180deg, #0D061F 0%, #251E35 100%);
         border-radius: 20px 20px 20px 20px;
@@ -432,6 +424,7 @@ img{
 
 h2{
     text-align: center;
+    color: #EEE5FF;
 }
 
     p{
@@ -446,9 +439,9 @@ h2{
   }
 
   .sec7-lower-content{
- width:97%;
+ width:90%;
 
- padding: 50px 30px 0px 65px;
+ padding: 50px 30px 0px 50px;
  display: flex;
  margin-right: auto;
  margin-left: auto;
@@ -483,6 +476,7 @@ h2{
             h2{
                 font-size: 25px;
                 margin: 0px 0px 10px;
+                color: #EEE5FF;
             }
 
         }
@@ -539,3 +533,32 @@ h2{
 
 }
 }}
+@media (max-width: 768px){
+    body .section2 .rightchild h1 {
+        
+        font-size: 37px;
+       
+}
+body .section2 {
+   
+    margin: 0px 30px;
+    padding: 70px 0;
+
+}
+body .section2 .leftchild {
+    margin-right: 0px;
+    padding: 0px 0;
+    width: 28%;
+}
+
+body .section2 .rightchild span {
+  
+    font-size: 37px;
+    
+    padding: 0 0 15px;
+    
+}
+}
+@media (max-width: 500px){
+
+}
