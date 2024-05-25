@@ -6,6 +6,7 @@ body .section1 {
   height: 92px;
   padding: 20px 0px 0px;
   pointer-events: none;
+  position: relative;
 }
 body .section1 .nav {
   position: absolute;
@@ -45,6 +46,7 @@ body .section2 {
   height: 471.4px;
   padding: 120px 0;
   font-family: sora, sans-serif;
+  position: relative;
   /* Styles for the right child */
 }
 body .section2 .leftchild {
@@ -107,8 +109,7 @@ body .section2 .rightchild p {
   font-family: Outfit, sans-serif;
 }
 body .section3 {
-  display: contents;
-  justify-content: center;
+  position: relative;
 }
 body .section3 h2 {
   font-size: 18px;
@@ -175,6 +176,7 @@ body .section4 {
   padding: 100px 100px 0px;
   justify-content: space-between;
   display: flex;
+  position: relative;
 }
 body .section4-leftchild {
   padding: 10px;
@@ -211,7 +213,7 @@ body .btn {
   padding: 20px 35px;
   pointer-events: auto;
   text-align: left;
-  align-items: start;
+  align-items: flex-start;
   display: flex;
   cursor: pointer;
   color: #EEE5FF;
@@ -231,6 +233,7 @@ body .section5 {
   display: inline;
   padding: 100px 0px 100px 0px;
   height: 1000px;
+  position: relative;
 }
 body .section5 h2 {
   color: #EEE5FF;
@@ -246,22 +249,21 @@ body .section5 .sec5-component {
   display: flex;
   gap: 20px;
   justify-content: center;
-  align-items: center;
   margin-top: 50px;
   width: 98%;
   margin: 50px auto 0;
 }
 body .section5 .apply-section {
+  margin: 80px 10px 10px;
+  padding: 30px;
+  position: relative;
+  top: 90px;
   background-color: transparent;
   background-image: linear-gradient(180deg, #0D061F 0%, #251E35 100%);
   border-radius: 20px 20px 20px 20px;
-  padding: 30px;
-  width: 691.3px;
-  height: 630px;
+  width: 497.3px;
+  height: 481px;
   color: #ffffff;
-  margin: 10px 10px 120px;
-  margin-top: 50px;
-  margin-bottom: 0px;
   border-color: rgba(255, 255, 255, 0.062745098);
   border: 2px solid;
 }
@@ -313,6 +315,9 @@ body .section5 .page-img-container img {
   border-radius: 0;
   box-shadow: none;
 }
+body .section6 {
+  position: relative;
+}
 body .section6 .sec6-container {
   padding: 50px 30px 50px 30px;
   margin: 150px auto 0;
@@ -339,6 +344,7 @@ body .section7 {
   overflow: hidden;
   padding: 100px 0px 100px 0px;
   text-align: left;
+  position: relative;
 }
 body .section7 .sec7-upper-content h2 {
   text-align: center;
@@ -392,31 +398,36 @@ body .section8 {
   align-items: center;
   justify-content: space-around;
   padding: 10px 0px 0px 0px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+body .section8 .footer-right ul {
+  display: flex;
+  gap: 30px;
+  padding: 0px 0;
+  margin-right: 25px;
+}
+body .section8 .footer-right ul li {
+  color: white;
+  list-style: none;
+}
+body .section8 .footer-right ul li a {
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  pointer-events: auto;
 }
 body .section8 .footer-left {
   position: relative;
-  width: 95%;
-  margin: auto;
-  min-height: 1px;
+  width: 40%;
+  justify-content: left;
   display: flex;
-  justify-content: space-between;
+  padding: 0 10px;
+  min-height: 1px;
 }
 body .section8 .footer-left p {
   color: #ffffff;
   align-content: center;
   align-items: center;
-}
-body .section8 .footer-left .footer-right ul {
-  display: flex;
-  gap: 20px;
-}
-body .section8 .footer-left .footer-right ul li {
-  color: white;
-  list-style: none;
-}
-body .section8 .footer-left .footer-right ul li a {
-  font-size: 14px;
-  color: white;
-  text-decoration: none;
-  pointer-events: auto;
 }/*# sourceMappingURL=home.css.map */

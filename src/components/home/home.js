@@ -12,6 +12,7 @@ function Home (){
 </a>
 
     </div>
+    </div>
     <div className="section2">
         <div className="leftchild">
             <span>Transform <br/> Your Website</span>
@@ -111,7 +112,7 @@ function Home (){
         </div>
     </div>
             </div>
-
+            </div>
          <div className="section6">
             <div className="sec6-container">
             <h2>
@@ -168,7 +169,7 @@ function Home (){
                 
                 <div className="footer-left">
                 <p>© 2023 Copywrite. All rights reserved by QodeMatrix</p>
-
+                </div>
                 <div className="footer-right">
                 <ul>
                    <li>
@@ -184,7 +185,7 @@ function Home (){
                 </ul>
                 
                 </div>
-                </div>
+               
              
                 </div> 
 
@@ -194,14 +195,14 @@ function Home (){
 
 
 
-            </div>
+           
 
 
 
 
 
 
-       </div>
+       
     </>)
 }
 export default Home ;
