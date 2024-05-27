@@ -459,11 +459,30 @@ body .section8 .footer-left p {
 
 @media (max-width: 768px) {
   body .section2 .rightchild h1 {
-    font-size: 37px;
+    font-size: 45px;
+    line-height: 1.2;
   }
-  body .section2 {
-    margin: 0px 30px;
-    padding: 70px 0;
+  body .section2 .rightchild span {
+    font-size: 45px;
+    line-height: 1.2;
+  }
+  body .section2 .rightchild p {
+    max-width: 100%;
+  }
+  body .section3 {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  body .section3 .section3-rating {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    padding: 47px 0;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
   }
   body .section2 .leftchild {
     margin-right: 0px;
@@ -473,5 +492,175 @@ body .section8 .footer-left p {
   body .section2 .rightchild span {
     font-size: 37px;
     padding: 0 0 15px;
+  }
+  body .section4 {
+    padding: 50px 50px 0px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+  }
+  body .section7 .sec7-upper-content h2 {
+    font-size: 36px;
+    width: 76%;
+  }
+  body .section7 .sec7-upper-content p {
+    width: 81%;
+  }
+  body .section7 .sec7-lower-content {
+    width: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  body .section7 .sec7-lower-content .card3 {
+    width: 85%;
+  }
+  body .section8 .footer-left {
+    width: 50%;
+    padding: 0px 40px;
+  }
+}
+@media (max-width: 500px) {
+  body .section1 .nav {
+    width: 90%;
+  }
+  body .section1 .nav .nav-btn {
+    font-size: 15px;
+    padding: 15px 15px;
+    border-radius: 21px;
+  }
+  body .section2 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+  }
+  body .section2 .leftchild {
+    width: 36%;
+  }
+  body .section2 .leftchild span {
+    font-size: 25px;
+    line-height: 1.2;
+  }
+  body .section2 .leftchild p {
+    font-size: 25px;
+  }
+  body .section2 .rightchild {
+    width: 90%;
+  }
+  body .section2 .rightchild h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+  body .section3 .section3-rating {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+  body .section4 {
+    padding: 10px 10px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .section4-leftchild {
+    width: 100%;
+  }
+  body .section4-leftchild .content h2 {
+    margin: 0px 0px 10px 0px;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 35px;
+  }
+  body .section4-leftchild .content p {
+    font-size: 16px;
+  }
+  body .btn {
+    align-items: center;
+    font-size: 16px;
+    justify-content: center;
+    padding: 15px 15px;
+  }
+  body .section4-rightchild {
+    padding: 10px;
+    width: 100%;
+    justify-content: center;
+  }
+  body .section5 {
+    padding: 50px 0;
+  }
+  body .section5 h2 {
+    font-size: 25px;
+  }
+  body .section5 .sec5-component {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 15px;
+  }
+  body .section5 .apply-section {
+    padding: 30px;
+    position: relative;
+    margin: auto;
+    width: 80%;
+  }
+  body .section5 .apply-page {
+    padding: 30px;
+    position: relative;
+    margin: auto;
+    width: 80%;
+  }
+  body .section6 .sec6-container {
+    margin: auto;
+    width: 85%;
+  }
+  body .section6 .sec6-container h2 {
+    font-size: 22px;
+  }
+  body .section6 .sec6-container .description p {
+    font-size: 16px;
+    max-width: 100%;
+    line-height: 1.4;
+  }
+  body .section7 {
+    padding: 50px 0px 50px 0px;
+  }
+  body .section7 .sec7-upper-content h2 {
+    font-size: 28px;
+    width: 95%;
+    line-height: 1.4;
+  }
+  body .section7 .sec7-upper-content p {
+    width: 95%;
+  }
+  body .section7 .sec7-lower-content {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  body .section7 .sec7-lower-content .card1 {
+    width: 85%;
+  }
+  body .section7 .sec7-lower-content .card2 {
+    width: 85%;
+  }
+  body .section8 {
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+  }
+  body .section8 .footer-left {
+    width: none;
+    padding: none;
   }
 }/*# sourceMappingURL=home.css.map */
