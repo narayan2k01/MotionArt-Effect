@@ -357,21 +357,19 @@ body .section7 {
 body .section7 .sec7-upper-content {
   text-align: center;
   padding: 10px;
-  /* justify-content: center; */
   width: 100%;
-  /* align-items: center; */
   display: flex;
   flex-direction: column;
-  /* align-content: center; */
   margin: auto;
 }
 body .section7 .sec7-upper-content h2 {
   color: #EEE5FF;
-  margin: 10px 260px;
   font-family: "Sora", Sans-serif;
   font-size: 45px;
   font-weight: 550;
   line-height: 60px;
+  width: 48%;
+  margin: auto;
 }
 body .section7 .sec7-upper-content p {
   color: rgba(238, 229, 255, 0.7411764706);
@@ -379,7 +377,9 @@ body .section7 .sec7-upper-content p {
   font-size: 18px;
   font-weight: 300;
   line-height: 30px;
-  margin: 0px 287px 0px 260px;
+  width: 40%;
+  margin: auto;
+  text-align: justify;
 }
 body .section7 .sec7-lower-content {
   width: 85%;
