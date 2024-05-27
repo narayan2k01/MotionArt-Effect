@@ -19,7 +19,7 @@ function Home (){
             <p>With Motion <br/> Art Effect</p>
         </div>
         <div className="rightchild">
-            <h1>Attract Your Visitors <br/> Attention With <br/>Colorful</h1>
+            <h1>Attract Your <br/> Visitors Attention <br/> With Colorful</h1>
             <span>Motion Art Effect</span>
             <p>Unleash the power of creativity with Motion Art for Elementor - your ultimate
                 solution for seamlessly integrating captivating animations into your website.
@@ -130,16 +130,16 @@ function Home (){
             </div>
             </div> 
             <div className="section7">
-                
-                    <div className="sec7-upper-content">
-                    <h2>
-                    An All-Round Plugin With Powerful Features
-                    </h2>
-                    <p>
-                    Whether you're a seasoned web designer or just starting out, Motion Art for Elementor seamlessly integrates with the Elementor platform,
-                    providing you with a seamless and intuitive experience.
-                    </p>
-                    </div>
+            <div className="sec7-upper-content">
+            <h2>
+                 An All-Round Plugin With Powerful Features
+            </h2>
+             <p>
+                 Whether you're a seasoned web designer or just starting out, Motion Art for Elementor seamlessly integrates with the Elementor platform,
+                providing you with a seamless and intuitive experience.
+             </p>
+            </div> 
+                    
                     <div className="sec7-lower-content">
                     <div className="card1">
                             <img src='https://qodematrix.com/wp-content/uploads/2023/10/motionarteffect-img9.png'></img>
