@@ -79,7 +79,13 @@ function Home (){
                     <p> Motion Art for Elementor is a groundbreaking plugin that empowers you to effortlessly infuse your website with visually stunning motion art elements.
 
                     </p></div>
-                    <button className='btn'>Purchase From Envato <i class="bi bi-arrow-right arrow"></i></button>
+                    <button 
+        className='btn' 
+        onClick={() => window.location.href = 'https://codecanyon.net/item/motion-art-for-elementor-wordpress-plugin/48826891'}
+      >
+        Purchase From Envato 
+        <i className="bi bi-arrow-right arrow"></i>
+      </button>
                 </div>
                 <div className="section4-rightchild">
                     <img src='https://qodematrix.com/wp-content/uploads/2023/10/motionarteffect-img5.png'></img>
@@ -178,7 +184,7 @@ function Home (){
                     </a>
                    </li>
                    <li>
-                   <a href="https://qodematrix.com/docs/motion-art-for-elementor/">
+                   <a href="https://support.qodematrix.com/login">
                     <span class="elementor-icon-list-text">Support</span>
                     </a>
                    </li>

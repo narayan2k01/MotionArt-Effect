@@ -260,16 +260,17 @@ p{
     font-family: Outfit, sans-serif;
     color: #EEE5FFBD;
     text-align: left;
+    line-height: 1.5;
   }
   
   .btn {
     font-family: "Sora", Sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 300;
     background-color: transparent;
     background-image: linear-gradient(90deg, #5E11FF 30%, #F87516 100%);
     border-radius: 20px;
-    padding: 20px 35px;
+    padding: 20px 55px;
     pointer-events: auto;
     text-align: left;
     align-items: flex-start;
@@ -407,16 +408,23 @@ img{
         color: #EEE5FF;
     font-family: "Sora", Sans-serif;
     font-size: 25px;
-    font-weight: 500;
-    line-height: 1;
+    font-weight: 600;
+    line-height: 1.5;
     }
     .description{
         p {
-           color: #EEE5FFBD;
-           font-size: 18px;
-           font-family: "outfit", sans-serif;
-           width: 100%;
+            color: rgba(238, 229, 255, 0.7411764706);
+            font-size: 18px;
+            font-family: "outfit", sans-serif;
+            width: 100%;
+            max-width: 38%;
+            
+            margin: auto;
+            line-height: 1.5;
         }
+    }
+    .ctn-browser{
+        padding: 25px 0px 0px;
     }
         
     } 
@@ -433,7 +441,7 @@ img{
     text-align: center;
     padding: 10px;
     /* justify-content: center; */
-    width: 77%;
+    width: 100%;
     /* align-items: center; */
     display: flex;
     flex-direction: column;
@@ -460,9 +468,9 @@ h2{
   }
 
   .sec7-lower-content{
- width:90%;
+ width:85%;
 
- padding: 50px 30px 0px 50px;
+ padding: 50px 0px 0px 0px;
  display: flex;
  margin-right: auto;
  margin-left: auto;
@@ -471,15 +479,16 @@ h2{
 .card1, .card2, .card3{
     background-color: transparent;
     background-image: linear-gradient(180deg, #0D061F 0%, #251E35 100%);
-    width: 399.9px;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    width: 33.333%;
     border-radius: 20px 20px 20px 20px;
          border-color: #FFFFFF10;
          border: 2px solid;
     margin: 10px 10px 10px 10px;
     align-content: flex-start;
-    padding: 13px 18px;
+    padding: 30px 30px 40px 30px;
         img{
-            
+            text-align: left;
             height: auto;
     max-width: 100%;
     border: none;
@@ -488,6 +497,7 @@ h2{
     vertical-align: middle;
     display: inline-block;
     justify-content: left;
+    border-color: #FFFFFF10;
 
         }
 
